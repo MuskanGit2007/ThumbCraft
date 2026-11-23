@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+/.venv/
+/backend/.venv/
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+/backend/*.db
+/backend/*.db-*
+
+node_modules/
+dist/
+dist-ssr/
